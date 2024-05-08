@@ -5,7 +5,7 @@ authors = ["Arsenii Lyashenko <arsenylyashenko.3@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-syn = "1.0.38"
+syn = { version = "1.0.38", features = ["full"] }
 proc-macro2 = "1.0.19"
 quote = "1.0.7"
 
